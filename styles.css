@@ -1,0 +1,25 @@
+.body {
+    background-color: #f5f5dc; /* Beige */
+    background-image: linear-gradient(45deg, #f5f5dc 25%, transparent 25%, transparent 75%, #f5f5dc 75%, #f5f5dc), 
+                      linear-gradient(45deg, #f5f5dc 25%, transparent 25%, transparent 75%, #f5f5dc 75%, #f5f5dc);
+    background-size: 20px 20px; /* Tamaño del cuadro */
+    color: #4d3c31; /* Marrón */
+}
+
+h1, h2, h3 {
+    color: #d68a3c; /* Naranja */
+}
+
+.button {
+    background-color: #d68a3c; /* Naranja */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.button:hover {
+    background-color: #4d3c31; /* Marrón */
+}
